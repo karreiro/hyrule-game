@@ -1,0 +1,50 @@
+{
+  "name": "hyrule-game",
+  "version": "1.0.0",
+  "description": "A simple game for demos ;-)",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karreiro/hyrule-game.git"
+  },
+  "keywords": [
+    "hyrule",
+    "game",
+    "demo",
+    "simple",
+    "karreiro"
+  ],
+  "author": "Guilherme Carreiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karreiro/hyrule-game/issues"
+  },
+  "homepage": "https://github.com/karreiro/hyrule-game#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.0",
+    "css-loader": "^2.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "colors": "^1.3.3",
+    "path": "^0.12.7",
+    "pixi.js": "^4.8.6",
+    "tiled-to-pixi": "^1.1.0",
+    "tmx-parser": "^1.5.0"
+  }
+}
